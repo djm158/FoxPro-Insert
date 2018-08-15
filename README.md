@@ -1,7 +1,7 @@
 # FoxPro-Insert
 https://stackoverflow.com/questions/51844088/visual-foxpro-9-c-sharp-oledbadapter-insert-feature-is-not-available
 
-You will [Microsoft OLE DB Provider for Visual FoxPro 9.0](https://www.microsoft.com/en-us/download/details.aspx?id=14839) to run this solution.
+You will need [Microsoft OLE DB Provider for Visual FoxPro 9.0](https://www.microsoft.com/en-us/download/details.aspx?id=14839) to run this solution.
 
 There is a stored procedure `newid` in `main.dbc` causing an OleDbException `Feature is not available`:
 
