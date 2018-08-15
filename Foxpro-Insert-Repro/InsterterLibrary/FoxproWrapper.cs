@@ -3,11 +3,11 @@ using System.Data.OleDb;
 
 namespace InserterLibrary
 {
-    public class FoxproWrapper
+    public class FoxProWrapper
     {
-        private string connectionString;
+        private readonly string connectionString;
 
-        public FoxproWrapper(string connectionString)
+        public FoxProWrapper(string connectionString)
         {
             this.connectionString = connectionString;
         }
